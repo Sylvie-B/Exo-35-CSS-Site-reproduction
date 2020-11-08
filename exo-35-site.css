@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    padding: 3% 1.5% 3% 1.5%;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*      bandeau du haut     */
+.haut{
+    position: relative;
+}
+
+#avoc{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#lettreA{
+    display: inline-block;
+    transform: rotate(180deg);
+    padding-bottom: 0.1%;
+}
+
+.hautRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#icon-menu{
+    display: inline-block;
+}
+
+#txt-menu{
+    display: inline-block;
+}
+
+#share{
+    float: right;
+    font-size: 50%;
+}
+
+/*      contenu central     "boite"     */
+.boite{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 75px;
+
+}
+
+.photo-haut{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    padding-right: 120px;
+    padding-top: 10%;
+    height: 315px;
+    background-image: url("photo-haut.PNG");
+    background-size: 48%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.titre{
+    position: relative;
+    margin-right: 0;
+    height: 70px;
+}
+
+#brand{
+    position: relative;
+    font-size: 80%;
+    left: 65%;
+}
+
+#logo{
+    font-size: 340%;
+    font-weight: bold;
+    position: relative;
+    left: 17%;
+    letter-spacing: 2px;
+}
+
+/*  le texte     */
+
+.texte{
+    width: 35%;
+    position: relative;
+    margin: auto;
+    font-size: 60%;
+}
+
+.ligneRouge{
+    color: red;
+}
+
+.photo1-2{
+    position: relative;
+    margin-top: 10%;
+    height: 240px;
+}
+
+.photo01{
+    width: 50%;
+    height: 300px;
+}
+
+#detail{
+    width: 95%;
+    height: auto;
+}
+
+.photo02{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+#detailChoux{
+    float: right;
+    width: 95%;
+    height: auto;
+}
+
+.photo03{
+    padding-top: 5%;
+}
+
+#choux{
+    width: 100%;
+    height: auto;
+}
+
+.photo4-5{
+    margin-top: 5%;
+    position: relative;
+    height: 240px;
+}
+
+.photo04{
+    width: 50%;
+}
+
+#coiffe{
+    width: 95%;
+    height: auto;
+}
+
+.photo05{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+
+#chouxLun{
+    float: right;
+    width: 95%;
+    height: auto;
+}
+
+/*      boutons de navigation       */
+.navigation{
+    position: relative;
+    margin-top: 10%;
+    font-size: 60%;
+}
+
+#back{
+    width: 50%;
+    margin: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+}
+
+.left{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+}
+
+#gob{
+    position: relative;
+    width: 60%;
+    height: auto;
+    margin-top: 20%;
+    float: right;
+}
+
+#previous{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: right;
+}
+
+.right{
+    position: absolute;
+    right: 10%;
+    top: 0;
+    height: 100%;
+}
+
+#chaise{
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin-top: 15%;
+}
+
+#next{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+}
+/*      bandeau du bas      */
+.bas{
+    background-color: #f7f7f7;
+    padding-top: 75px;
+}
+
+.logos{
+    text-align: center;
+    font-size: 70%;
+}
+
+#icon01, #icon02, #icon03, #icon04, #icon05{
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.copy{
+    text-align: center;
+    font-size: 60%;
+    padding-top: 50px;
+}
+
+.retour{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 70%;
+}
